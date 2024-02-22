@@ -32,7 +32,7 @@ Houston, TX, USA&emsp;
 
 Me LLaMA introduces a groundbreaking suite of open-source medical Large Language Models (LLMs), including the foundation models Me LLaMA 13B/70B and their chat-enhanced versions, Me LLaMA 13B-chat/70B-chat. Developed through the innovative continual pre-training and instruction tuning of LLaMA2, these models leverage a vast medical corpus. This corpus encompasses selected PubMed papers and abstracts, a novel dataset of internationally-recognized medical guidelines, and a general domain corpus, positioning Me LLaMA at the forefront of medical AI research​​.
 
-With its domain-specific advancements, Me LLaMA sets new benchmarks, outperforming LLaMA2, ChatGPT, and GPT-4 on a wide array of medical reasoning tasks. This makes Me LLaMA a significant asset for medical NLP applications and research​​​​.
+With its domain-specific advancements, Me LLaMA sets new benchmarks on a wide array of medical reasoning tasks. This makes Me LLaMA a significant asset for medical NLP applications and research​​​​.
 
 ## Legal Disclaimer
 This software and model are provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors, contributors, or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
