@@ -111,7 +111,7 @@ For automated evaluation, please follow these instructions:
 python eval.py \
     --model "hf-causal-vllm" \
     --model_args "use_accelerate=True,pretrained=meta-llama/Llama-2-7b-chat-hf,use_fast=False" \
-    --tasks "m2sum"
+    --tasks "PUBMEDQA,MedQA,MedMCQA,EmrQA,i2b2,DDI2013,hoc,MTSample,PUBMEDSUM,MimicSum,BioNLI,MedNLI"
 ```
 
 More details can be found in the [lm_eval](https://github.com/EleutherAI/lm-evaluation-harness) documentation.
@@ -124,7 +124,7 @@ Please note, for tasks such as NER, the automated evaluation is based on a speci
 export OPENAI_API_SECRET_KEY=YOUR_KEY_HERE
 python eval.py \
     --model gpt-4 \
-    --tasks m2sum
+    --tasks "PUBMEDQA,MedQA,MedMCQA,EmrQA,i2b2,DDI2013,hoc,MTSample,PUBMEDSUM,MimicSum,BioNLI,MedNLI"
 ```
 
 ## Citation
