@@ -43,7 +43,7 @@ The content and data provided with the models do not replace the expertise of he
 
 Additionally, users are expressly prohibited from sharing or redistributing any outputs generated from the Me LLaMA models without explicit permission from the authors. This includes, but is not limited to, publishing, distributing, or making the generated outputs available to third parties in any form, whether for commercial purposes or not. This restriction is put in place to ensure responsible use of the technology and to respect the intellectual property rights associated with the models and their outputs. Violation of these terms may result in legal action and revocation of access to the models.
 
-The code and models are available for non-commercial use.
+The code, [datasets](https://huggingface.co/collections/YBXL/mellama-evaluation-datasets-65d8efd56b8ab39009840313), and models are available for non-commercial use.
 
 ## Model Details
 
