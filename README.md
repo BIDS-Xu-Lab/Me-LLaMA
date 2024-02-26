@@ -94,7 +94,7 @@ Coming soon!
 git clone git@github.com:BIDS-Xu-Lab/Me-LLaMA.git --recursive
 cd Me-LLaMA
 pip install -r requirements.txt
-cd Me-LLaMA/src/medical-evaluation
+cd src/medical-evaluation
 pip install -e .[multilingual]
 ```
 
