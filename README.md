@@ -139,6 +139,7 @@ cd Me-LLaMA
 pip install -r requirements.txt
 cd src/medical-evaluation
 pip install -e .[multilingual]
+python -m spacy download en_core_web_lg
 ```
 
 #### Automated Task Assessment
