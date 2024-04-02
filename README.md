@@ -136,10 +136,11 @@ This setup allows for more nuanced interactions with the model, such as fine-tun
 ```bash
 git clone git@github.com:BIDS-Xu-Lab/Me-LLaMA.git --recursive
 cd Me-LLaMA
-pip install -r requirements.txt
+pip install poetry
+poetry install
 cd src/medical-evaluation
-pip install -e .[multilingual]
-python -m spacy download en_core_web_lg
+poetry run pip install -e .[multilingual]
+poetry run python -m spacy download en_core_web_lg
 ```
 
 #### Automated Task Assessment
