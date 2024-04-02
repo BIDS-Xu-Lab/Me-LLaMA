@@ -8,3 +8,5 @@ seqeval
 numpy
 evaluate
 textstat
+beautifulsoup4
+spacy
