@@ -638,21 +638,21 @@ class NormQA(QA):
 
 
 class PUBMEDQA(Classification):
-    DATASET_PATH = "YBXL/pubmedqa_test"
+    DATASET_PATH = "clinicalnlplab/pubmedqa_test"
 
 
 class MedQA(Classification):
-    DATASET_PATH = "YBXL/medQA_test"
+    DATASET_PATH = "clinicalnlplab/medQA_test"
     LOWER_CASE = False
 
 
 class MedMCQA(Classification):
-    DATASET_PATH = "YBXL/medMCQA_test"
+    DATASET_PATH = "clinicalnlplab/medMCQA_test"
     LOWER_CASE = False
 
 
 class EmrQA(NormQA):
-    DATASET_PATH = "YBXL/emrqa_test"
+    DATASET_PATH = "clinicalnlplab/emrqa_test"
 
 
 class I2B2(NER):
@@ -660,7 +660,7 @@ class I2B2(NER):
 
 
 class DDI2013(Classification):
-    DATASET_PATH = "YBXL/DDI2013_test"
+    DATASET_PATH = "clinicalnlplab/DDI2013_test"
 
     def process_results(self, doc, results):
         gold: str = doc["choices"][doc["gold"]]
@@ -691,7 +691,7 @@ class DDI2013(Classification):
 
 
 class HoC(Classification):
-    DATASET_PATH = "YBXL/HoC_test"
+    DATASET_PATH = "clinicalnlplab/HoC_test"
     CHOICES = [ "sustaining proliferative signaling", "evading growth suppressors", "resisting cell death", "enabling replicative immortality", "inducing angiogenesis", "activating invasion and metastasis", "genomic instability and mutation", "tumor promoting inflammation", "cellular energetics", "avoiding immune destruction" ]
 
     def process_results(self, doc, results):
@@ -742,20 +742,20 @@ class HoC(Classification):
 
 
 class MTSample(Classification):
-    DATASET_PATH = "YBXL/MTSample_test"
+    DATASET_PATH = "clinicalnlplab/MTSample_test"
 
 
 class PubmedSum(AbstractiveSummarization):
-    DATASET_PATH = "YBXL/PubmedSumm_test"
+    DATASET_PATH = "clinicalnlplab/PubmedSumm_test"
 
 
 class MimicSum(AbstractiveSummarization):
-    DATASET_PATH = "YBXL/MIMIC_SUM_test"
+    DATASET_PATH = "clinicalnlplab/MIMIC_SUM_test"
 
 
 class BioNLI(Classification):
-    DATASET_PATH = "YBXL/BioNLI_test"
+    DATASET_PATH = "clinicalnlplab/BioNLI_test"
 
 
 class MedNLI(Classification):
-    DATASET_PATH = "YBXL/MedNLI_test"
+    DATASET_PATH = "clinicalnlplab/MedNLI_test"
