@@ -50,6 +50,7 @@ The code, [datasets](https://huggingface.co/collections/clinicalnlplab/ibe-65de0
 - **Model License:** [PhysioNet Credentialed Health Data License 1.5.0](https://physionet.org/about/licenses/physionet-credentialed-health-data-license-150/)
 - **Code License:** [MIT LICENSE](https://opensource.org/licenses/MIT)
 - **Continued-pretrained from model:** [Llama-2](https://huggingface.co/llama) models, extensively adapted for the medical domain through targeted pre-training and instruction tuning
+- **Evaluation Datasets:** [Huggingface Evaluation Datasets Collection](https://huggingface.co/collections/clinicalnlplab/ibe-65de0abfafad82f111fe5392)
 - **Paper:** *[Me LLaMA: Foundation Large Language Models for Medical Applications](https://arxiv.org/abs/2402.12749)*
 
 ## Training Procedure
