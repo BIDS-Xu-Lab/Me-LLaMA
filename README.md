@@ -156,7 +156,7 @@ For automated evaluation, please follow these instructions:
 poetry run python src/eval.py \
     --model "hf-causal-vllm" \
     --model_args "use_accelerate=True,pretrained=meta-llama/Llama-2-7b-chat-hf,use_fast=False" \
-    --tasks "PUBMEDQA,MedQA,MedMCQA,EmrQA,i2b2,DDI2013,hoc,MTSample,PUBMEDSUM,MimicSum,BioNLI,MedNLI"
+    --tasks "MedQA"
 ```
    
    Then run bash command:
@@ -173,9 +173,9 @@ Perform the same steps as the open-sourced models, first to change the bash file
 
 ```bash
 export OPENAI_API_SECRET_KEY=YOUR_KEY_HERE
-poetry run python eval.py \
+poetry run python src/eval.py \
     --model gpt-4 \
-    --tasks "PUBMEDQA,MedQA,MedMCQA,EmrQA,i2b2,DDI2013,hoc,MTSample,PUBMEDSUM,MimicSum,BioNLI,MedNLI"
+    --tasks "MedQA"
 ```
 
 Please note, for tasks such as NER, the automated evaluation is based on a specific pattern. This might fail to extract relevant information in zero-shot settings, resulting in relatively lower performance compared to previous human-annotated results.
