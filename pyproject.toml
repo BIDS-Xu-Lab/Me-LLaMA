@@ -20,6 +20,7 @@ textstat = "^0.7.3"
 beautifulsoup4 = "^4.12.3"
 spacy = "^3.7.4"
 vllm = "^0.4.0"
+datasets = "^2.18.0"
 
 
 [build-system]
