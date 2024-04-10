@@ -152,7 +152,7 @@ For automated evaluation, please follow these instructions:
    To evaluate a model hosted on the HuggingFace Hub (for instance, llama2-7b-hf), change this command in `scripts/run_evaluation.sh`:
 
 ```bash
-python src/eval.py \
+poetry run python src/eval.py \
     --model "hf-causal-vllm" \
     --model_args "use_accelerate=True,pretrained=meta-llama/Llama-2-7b-chat-hf,use_fast=False" \
     --tasks "PUBMEDQA,MedQA,MedMCQA,EmrQA,i2b2,DDI2013,hoc,MTSample,PUBMEDSUM,MimicSum,BioNLI,MedNLI"

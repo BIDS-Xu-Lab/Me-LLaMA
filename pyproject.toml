@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "me-llama"
+version = "0.1.0"
+description = ""
+authors = ["Jimin Huang <jimin.huang@yale.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = "^4.39.3"
+gradio = "^4.25.0"
+tqdm = "^4.66.2"
+scikit-learn = "^1.4.1.post1"
+sentencepiece = "^0.2.0"
+pandas = "^2.2.1"
+seqeval = "^1.2.2"
+numpy = "^1.26.4"
+evaluate = "^0.4.1"
+textstat = "^0.7.3"
+beautifulsoup4 = "^4.12.3"
+spacy = "^3.7.4"
+datasets = "^2.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
