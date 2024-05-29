@@ -1,0 +1,13 @@
+transformers
+gradio
+tqdm
+scikit-learn
+sentencepiece
+pandas
+seqeval
+numpy
+evaluate
+textstat
+beautifulsoup4
+spacy
+vllm

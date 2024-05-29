@@ -1,0 +1,6 @@
+[submodule "src/medical-evaluation"]
+	path = src/medical-evaluation
+	url = https://github.com/BIDS-Xu-Lab/medical-evaluation.git
+[submodule "src/metrics/BARTScore"]
+	path = src/metrics/BARTScore
+	url = https://github.com/neulab/BARTScore.git
