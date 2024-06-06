@@ -30,7 +30,7 @@ Houston, TX, USA&emsp;
 <br />
 
 
-Me LLaMA introduces a groundbreaking suite of open-source medical Large Language Models (LLMs), including the foundation models Me LLaMA 13B/70B and their chat-enhanced versions, Me LLaMA 13B-chat/70B-chat. Developed through the innovative continual pre-training and instruction tuning of LLaMA2, these models leverage a vast medical corpus. This corpus encompasses selected PubMed papers and abstracts, a novel dataset of internationally-recognized medical guidelines, and a general domain corpus, positioning Me LLaMA at the forefront of medical AI research​​.
+[Me LLaMA](https://www.physionet.org/content/me-llama/1.0.0/) introduces a groundbreaking suite of open-source medical Large Language Models (LLMs), including the foundation models Me LLaMA 13B/70B and their chat-enhanced versions, Me LLaMA 13B-chat/70B-chat. Developed through the innovative continual pre-training and instruction tuning of LLaMA2, these models leverage a vast medical corpus. This corpus encompasses selected PubMed papers and abstracts, a novel dataset of internationally-recognized medical guidelines, and a general domain corpus, positioning Me LLaMA at the forefront of medical AI research​​.
 
 With its domain-specific advancements, Me LLaMA sets new benchmarks on a wide array of medical reasoning tasks. This makes Me LLaMA a significant asset for medical NLP applications and research​​​​.
 
@@ -43,7 +43,7 @@ The content and data provided with the models do not replace the expertise of he
 
 Additionally, users are expressly prohibited from sharing or redistributing any outputs generated from the Me LLaMA models without explicit permission from the authors. This includes, but is not limited to, publishing, distributing, or making the generated outputs available to third parties in any form, whether for commercial purposes or not. This restriction is put in place to ensure responsible use of the technology and to respect the intellectual property rights associated with the models and their outputs. Violation of these terms may result in legal action and revocation of access to the models.
 
-The code, [datasets](https://huggingface.co/collections/clinicalnlplab/ibe-65de0abfafad82f111fe5392), and models are available for non-commercial use.
+The code, [datasets](https://huggingface.co/collections/clinicalnlplab/ibe-65de0abfafad82f111fe5392), and [models](https://www.physionet.org/content/me-llama/1.0.0/) are available for non-commercial use.
 
 ## Model Details
 
@@ -84,7 +84,7 @@ This detailed training procedure underscores the comprehensive approach taken in
 
 ## How to use
 
-To utilize the Me LLaMA model locally, begin by acquiring the necessary model files from [our PhysioNet project]().
+To utilize the Me LLaMA model locally, begin by acquiring the necessary model files from [our PhysioNet project](https://www.physionet.org/content/me-llama/1.0.0/).
 
 First, ensure that both the `torch` and `transformers` libraries are installed in your Python environment. These libraries are required for working with the model.
 
