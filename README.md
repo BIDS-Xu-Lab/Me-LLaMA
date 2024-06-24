@@ -19,7 +19,7 @@
 <br />
 
 <div align="left">
-    <sup>1</sup>Section of Biomedical Informatics and Data Science, School of Medicine, Yale University, New
+    <sup>1</sup>Department of Biomedical Informatics and Data Science, School of Medicine, Yale University, New
 Haven, CT, USA&emsp;
     <sup>2</sup>Department of Health Outcomes and Biomedical Informatics, College of Medicine, University
 of Florida, Gainesville, FL, USA&emsp;
@@ -34,6 +34,14 @@ Houston, TX, USA&emsp;
 
 With its domain-specific advancements, Me LLaMA sets new benchmarks on a wide array of medical reasoning tasks. This makes Me LLaMA a significant asset for medical NLP applications and research​​​​.
 
+## Availability
+
+The code, datasets, and models are available for non-commercial use.
+
+- **Code**: See above.
+- **Datasets**: Check our Hugging Face [collection](https://huggingface.co/collections/clinicalnlplab/ibe-65de0abfafad82f111fe5392).
+- **Models**: Please visit our [PhysioNet repository](https://www.physionet.org/content/me-llama/1.0.0/). Note that a PhysioNet account, training, and data usage agreement are required.
+
 ## Legal Disclaimer
 This software and model are provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors, contributors, or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
 
@@ -43,7 +51,6 @@ The content and data provided with the models do not replace the expertise of he
 
 Additionally, users are expressly prohibited from sharing or redistributing any outputs generated from the Me LLaMA models without explicit permission from the authors. This includes, but is not limited to, publishing, distributing, or making the generated outputs available to third parties in any form, whether for commercial purposes or not. This restriction is put in place to ensure responsible use of the technology and to respect the intellectual property rights associated with the models and their outputs. Violation of these terms may result in legal action and revocation of access to the models.
 
-The code, [datasets](https://huggingface.co/collections/clinicalnlplab/ibe-65de0abfafad82f111fe5392), and [models](https://www.physionet.org/content/me-llama/1.0.0/) are available for non-commercial use.
 
 ## Model Details
 
@@ -156,7 +163,7 @@ For automated evaluation, please follow these instructions:
 poetry run python src/eval.py \
     --model "hf-causal-vllm" \
     --model_args "use_accelerate=True,pretrained=meta-llama/Llama-2-7b-chat-hf,use_fast=False" \
-    --tasks "MedQA"
+    --tasks "PUBMEDQA,MedQA,MedMCQA,EmrQA,i2b2,DDI2013,hoc,MTSample,PUBMEDSUM,MimicSum,BioNLI,MedNLI"
 ```
    
    Then run bash command:
@@ -175,7 +182,7 @@ Perform the same steps as the open-sourced models, first to change the bash file
 export OPENAI_API_SECRET_KEY=YOUR_KEY_HERE
 poetry run python src/eval.py \
     --model gpt-4 \
-    --tasks "MedQA"
+    --tasks "PUBMEDQA,MedQA,MedMCQA,EmrQA,i2b2,DDI2013,hoc,MTSample,PUBMEDSUM,MimicSum,BioNLI,MedNLI"
 ```
 
 Please note, for tasks such as NER, the automated evaluation is based on a specific pattern. This might fail to extract relevant information in zero-shot settings, resulting in relatively lower performance compared to previous human-annotated results.

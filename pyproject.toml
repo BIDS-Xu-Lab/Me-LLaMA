@@ -3,6 +3,7 @@ name = "me-llama"
 version = "0.1.0"
 description = ""
 authors = ["Jimin Huang <jimin.huang@yale.edu>"]
+license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
