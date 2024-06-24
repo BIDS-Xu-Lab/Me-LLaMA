@@ -4,7 +4,7 @@ export PYTHONPATH="$eval_path/src:$eval_path/src/medical-evaluation:$eval_path/s
 export CUDA_VISIBLE_DEVICES=
 echo $PYTHONPATH
 
-python src/eval.py \
+poetry run python src/eval.py \
     --model hf-causal-vllm \
     --tasks "PUBMEDQA,MedQA,MedMCQA,EmrQA,i2b2,DDI2013,hoc,MTSample,PUBMEDSUM,MimicSum,BioNLI,MedNLI" \
     --model_args "use_accelerate=True,pretrained=meta-llama/Llama-2-7b-chat-hf,use_fast=False" \

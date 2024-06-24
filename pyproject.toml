@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 transformers = "^4.39.3"
 gradio = "^4.25.0"
 tqdm = "^4.66.2"
@@ -20,6 +20,7 @@ evaluate = "^0.4.1"
 textstat = "^0.7.3"
 beautifulsoup4 = "^4.12.3"
 spacy = "^3.7.4"
+vllm = "^0.4.0"
 datasets = "^2.18.0"
 
 
