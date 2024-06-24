@@ -19,7 +19,7 @@
 <br />
 
 <div align="left">
-    <sup>1</sup>Section of Biomedical Informatics and Data Science, School of Medicine, Yale University, New
+    <sup>1</sup>Department of Biomedical Informatics and Data Science, School of Medicine, Yale University, New
 Haven, CT, USA&emsp;
     <sup>2</sup>Department of Health Outcomes and Biomedical Informatics, College of Medicine, University
 of Florida, Gainesville, FL, USA&emsp;
