@@ -41,6 +41,7 @@ The code, datasets, and models are available for non-commercial use.
 - **Code**: See above.
 - **Datasets**: Check our Hugging Face [collection](https://huggingface.co/collections/clinicalnlplab/ibe-65de0abfafad82f111fe5392).
 - **Models**: Please visit our [PhysioNet repository](https://www.physionet.org/content/me-llama/1.0.0/). Note that a PhysioNet account, training, and data usage agreement are required.
+- **New model based LLaMA3**: We have developed new version of Me-LLaMA model based on LLaMA3-8B model. The model can be accessed here: [YBXL/Med-LLaMA3-8B](https://huggingface.co/YBXL/Med-LLaMA3-8B).
 
 ## Legal Disclaimer
 This software and model are provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors, contributors, or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
